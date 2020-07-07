@@ -1,0 +1,246 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+}
+.logo h2 {
+  display: inline-block;
+  font-size: 1.6em;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.logo {
+  display: inline-block;
+  margin-left: 130px;
+}
+ul li {
+  display: inline-block;
+  justify-content: right;
+  margin-right: 30px;
+}
+li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+li a:hover {
+  color: #808285;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+.links {
+  display: inline-block;
+  margin-right: 100px;
+  margin-top: 12px;
+}
+section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* background: url("cornfieldDakerr.jpg") no-repeat center center/cover; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/imgs/cornfieldDakerr.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hdr {
+  color: #ffffff;
+  font-size: 62px;
+  font-weight: 720;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-top: 16%;
+  margin-bottom: 0;
+}
+#lwr {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 42px;
+  font-weight: 720;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.textAbout {
+  color: black;
+  text-align: center;
+  width: 40%;
+  height: 90%;
+  overflow: hidden;
+}
+.textAbout > h1 {
+  font-size: 82px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.textAbout > h3 {
+  text-align: center;
+  font-size: 22px;
+  color: #58595b;
+  font-family: "Open Sans", sans-serif;
+}
+.readMore {
+  color: #58595b;
+  font-size: 26px;
+  font-style: italic;
+  font-family: "Open Sans", sans-serif;
+}
+.readMore:hover {
+  color: #808285;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+.textAbout > hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+.scrollImage {
+  width: 100%;
+  background-color: black;
+  height: 50%;
+  overflow: hidden;
+  /* background: url("cornfieldDakerr.jpg") no-repeat center center/cover; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/imgs/wheat.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.scrollImage > h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 90px;
+}
+.gallery {
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+.gallery > h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 42px;
+  margin-top: 20px;
+}
+.gallery-imgs > img {
+  width: 350px;
+}
+.gallery-imgs {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.gallery-imgss > img {
+  width: 350px;
+}
+.gallery-imgss {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.gallery > h2 {
+  text-align: center;
+  color: #58595b;
+  font-size: 22px;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+}
+footer {
+  height: 100%;
+  width: 100%;
+  background-color: #1e2023;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+.social-icons > img {
+  height: 80px;
+  width: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.newsletter {
+  display: flex;
+  justify-content: center;
+}
+.newsletter > h3 {
+  margin-right: 28px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  margin-top: 16px;
+  color: #949494;
+}
+.newsletter > input {
+  width: 415px;
+  height: 60px;
+  background: #242f3e;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  margin-top: 12px;
+  font-size: 20px;
+  color: #949494;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.newsletter > button {
+  width: 142px;
+  height: 60px;
+  background: #38414e;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  margin-top: 12px;
+  color: #ffffff;
+}
+#map {
+  height: 50%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: cornflowerblue;
+}
+#cr {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #949494;
+}
+.gallery a {
+  font-style: normal;
+  color: black;
+}
